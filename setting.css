@@ -1,0 +1,52 @@
+.star {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: auto;
+    margin-top: -8%;
+    margin-right: -9%;
+    z-index: 10;
+    transform: rotate(25deg);
+    stroke: #c0b0ff;
+    stroke-width: 5px;
+    fill: #fcfcfc;
+}
+
+.star_press {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: auto;
+    margin-top: -15%;
+    margin-right: 32%;
+    z-index: 10;
+    transform: rotate(25deg);
+    stroke: #c0b0ff;
+    stroke-width: 5px;
+    fill: #fcfcfc;
+}
+
+.setting_button {
+    position: relative;
+    padding: 6px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    line-height: 1.5;
+    transition: color .3s ease, background-color .3s ease, border .3s ease;
+    box-sizing: border-box;
+    color: #8f8f8f;
+    background-color: #fcfcfc;
+    border-color: #c0b0ff;
+    margin-left: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40%;
+}

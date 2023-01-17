@@ -1,0 +1,54 @@
+/* ä¸»é¡µUI */
+/* å››ä¸ªæ–œæ–¹å— */
+
+.box {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border: 80px;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    border-color: #C0B0FF;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 2px 2px #CABDFF;
+    background-color: rgba(192, 176, 255, 0.3);
+}
+
+.box_text {
+    font-size: large;
+    transform: rotate(-45deg);
+    color: #8F8F8F;
+}
+
+.box_press {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border: 80px;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    border-color: #C0B0FF;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 2px 2px #CABDFF;
+    background-color: rgba(138, 110, 250, 0.3);
+}
+
+.box_text_press {
+    font-size: large;
+    transform: rotate(-45deg);
+    color: #555555;
+}
